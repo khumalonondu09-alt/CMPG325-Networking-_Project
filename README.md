@@ -40,6 +40,7 @@ The address space is subnetted to support the required network segments, includi
 The repository contains the following project materials:
 
 - **Milestone-1/** – Client requirements, network design, topology diagrams, and addressing plan.
+- **Milestone-2/**- Working Packet Tracer file, Assigned feature implemented, Testing evidence.
 - **Packet-Tracer/** – Working Cisco Packet Tracer implementation.
 - **Implementation/** – Configuration and implementation documentation.
 - **Evidence/** – Screenshots and results from network testing.

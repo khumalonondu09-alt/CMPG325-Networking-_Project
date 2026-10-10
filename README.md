@@ -69,6 +69,7 @@ The implemented network will be tested to verify:
 - Correct IP addressing
 - DHCP operation
 - Wireless connectivity
+- VLAN/trunk verification, routing table inspection, and ISP next-hop connectivity.
 - WPA2-PSK security
 - Additional-floor wireless coverage
 - Inter-network connectivity
@@ -76,14 +77,27 @@ The implemented network will be tested to verify:
 
 Testing screenshots and supporting evidence are stored in the **Evidence/** directory.
 
+## Network Components
+
+-Router: R1-Edge
+-Core switch: SW-Core
+-Staff VLAN: VLAN 10
+-Student VLAN: VLAN 20
+-Admin-Servers VLAN: VLAN 30
+-Management VLAN: VLAN 99
+-DHCP and DNS services
+
+
 ## Packet Tracer File
 
 The working Cisco Packet Tracer implementation is stored in:
 
 `Packet-Tracer/Iketsetseng-Network-Final.pkt`
 
-## Project Status
+## Repository Contents
 
-**Current Stage:** Client Implementation Review
-
-The implementation is being tested and documented to demonstrate that the network satisfies the requirements of the assigned client scenario.
+-Final Packet Tracer network file
+-Technical report
+-Network topology and testing screenshots
+-INSET demonstration video or link
+-Supporting files required for submission
